@@ -1,0 +1,28 @@
+:root {
+  /* Fons */
+  /* Text colors */
+  --light-text-color: #fff
+  /* BG colors */
+  /* Other */
+
+}
+
+/**
+  |============================
+  | Base Styles
+  |============================
+*/
+
+body {
+  /* background-color: rgb(25, 25, 25); */
+  
+}
+
+/* Reset */
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}

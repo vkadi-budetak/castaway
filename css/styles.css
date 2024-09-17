@@ -1,10 +1,14 @@
 :root {
   /* Fons */
+  --primary-font: "DM Sans", sans-serif;
   /* Text colors */
-  --light-text-color: #fff
+  --main-txt-cl: rgb(255, 255, 255);
+  --secondary-txt-cl: rgba(255, 255, 255, 0.7);
+  --episode-txt-cl: rgb(17, 141, 168);
   /* BG colors */
+  --bgcolors-fone: rgb(0, 0, 0);
   /* Other */
-
+  --btn-color: rgb(17, 141, 168);
 }
 
 /**
@@ -12,13 +16,56 @@
   | Base Styles
   |============================
 */
+html {
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+  color: var(--main-txt-cl);
+}
 
 body {
   background-color: rgb(25, 25, 25);
-  
+  width: 1440px;
 }
 
-/* Reset */
+/* reset start */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .link {
   text-decoration: none;
 }
@@ -26,3 +73,100 @@ body {
 .list {
   list-style: none;
 }
+
+/**
+  |============================
+  | Styles Header
+  |============================
+*/
+.header {
+  width: 1440px;
+  padding: 26px;
+}
+
+.header_section {
+  display: flex;
+  height: 67px;
+}
+
+.header_link {
+}
+
+.header_nav_iteam {
+  color: var(--main-txt-cl);
+}
+
+.header_logo {
+  width: 166px;
+  height: 33px;
+}
+
+.header_nav {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.header_list {
+  display: flex;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+/**
+  |============================
+  | Styles Hero
+  |============================
+*/
+.hero_section {
+}
+.hero_img {
+  width: 68px;
+  height: 74px;
+}
+.hero_pic {
+  width: 650px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.hero_title {
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 88px;
+  letter-spacing: 3.2px;
+}
+.hero_txt {
+  font-size: 75px;
+}
+.hero_txt_underlining {
+  width: 163px;
+  height: 11px;
+}
+.hero_txt_accent {
+  font-size: 80px;
+font-weight: 700;
+}
+.hero_subject {
+  font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+}
+.hero_list {
+
+}
+.list {
+}
+.hero_link {
+}
+.hero_iteam {
+}
+.link {
+}
+.hero_logo_listen {
+  width: 32px;
+height: 32px;
+}
+

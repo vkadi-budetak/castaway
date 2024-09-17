@@ -5,6 +5,7 @@
   --main-txt-cl: rgb(255, 255, 255);
   --secondary-txt-cl: rgba(255, 255, 255, 0.7);
   --episode-txt-cl: rgb(17, 141, 168);
+  --btn-txt-cl: rgb(255, 255, 255);
   /* BG colors */
   --bgcolors-fone: rgb(0, 0, 0);
   /* Other */
@@ -25,6 +26,9 @@ html {
 body {
   background-color: rgb(25, 25, 25);
   width: 1440px;
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: 0%;
 }
 
 /* reset start */
@@ -50,6 +54,10 @@ img {
 
 button {
   cursor: pointer;
+  width: 178px;
+  color: var(--btn-txt-cl);
+  background-color: var(--btn-color);
+  border-radius: 6px;
 }
 
 .visually-hidden {
@@ -59,7 +67,7 @@ button {
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -89,8 +97,8 @@ button {
   height: 67px;
 }
 
-.header_link {
-}
+/* .header_link {
+} */
 
 .header_nav_iteam {
   color: var(--main-txt-cl);
@@ -117,11 +125,11 @@ li:last-child {
 
 /**
   |============================
-  | Styles Hero
+  | Hero Styles
   |============================
 */
-.hero_section {
-}
+/* .hero_section {
+} */
 .hero_img {
   width: 68px;
   height: 74px;
@@ -147,15 +155,14 @@ li:last-child {
 }
 .hero_txt_accent {
   font-size: 80px;
-font-weight: 700;
+  font-weight: 700;
 }
 .hero_subject {
   font-size: 15px;
-font-weight: 400;
-line-height: 24px;
+  font-weight: 400;
+  line-height: 1.2;
 }
-.hero_list {
-
+/* .hero_list {
 }
 .list {
 }
@@ -164,9 +171,100 @@ line-height: 24px;
 .hero_iteam {
 }
 .link {
-}
+} */
 .hero_logo_listen {
   width: 32px;
-height: 32px;
+  height: 32px;
+}
+/**
+  |============================
+  | About Styles
+  |============================
+*/
+.about_section {
+  height: 2088px;
+  margin: 0 20px;
+  margin-top: 100px;
 }
 
+.about_section_content {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.about_title {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 2.88px;
+}
+.about_btn_episodes {
+  height: 51px;
+}
+.about_btn_txt {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.about_conteiner {
+  display: flex;
+  width: 1300px;
+  height: 545px;
+  border-radius: 32px;
+  background-color: var(--bgcolors-fone);
+}
+.about_img {
+  width: 389px;
+  height: 465px;
+}
+.about_conteiner_title {
+  width: 73px;
+  height: 27px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  background: rgb(25, 25, 25);
+  border-radius: 6px;
+}
+.about_conteiner_subtitle {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--episode-txt-cl);
+}
+.about_conteiner_txt {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--secondary-txt-cl);
+}
+.about_conteiner_btn {
+  width: 208px;
+  height: 51px;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+/**
+  |============================
+  | Author Styles
+  |============================
+*/
+
+.subscribe_section {
+  display: flex;
+  width: 1400px;
+  height: 943px;
+  border: 1px solid red;
+}
+.subscribe_svg {
+}
+.subscribe_subtitle {
+}
+.title {
+}
+.subscribe_text {
+}
+.subscribe_img {
+}

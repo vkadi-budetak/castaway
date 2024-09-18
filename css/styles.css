@@ -28,7 +28,6 @@ body {
   width: 1440px;
   font-size: 22px;
   line-height: 1.5;
-  letter-spacing: 0%;
 }
 
 /* reset start */
@@ -50,6 +49,8 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 button {
@@ -252,19 +253,134 @@ li:last-child {
   |============================
 */
 
-.subscribe_section {
+.author_section {
   display: flex;
   width: 1400px;
   height: 943px;
-  border: 1px solid red;
+  margin: 0 20px;
 }
-.subscribe_svg {
+.author_pic {
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  background-color: var(--btn-color);
+}
+.author_svg {
+  width: 38px;
+  height: 71px;
+}
+.author_subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--episode-txt-cl);
+}
+.author_title {
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 2.88px;
+}
+.author_text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--secondary-txt-cl);
+}
+.author_img {
+  width: 650px;
+  height: 743px;
+  border-radius: 15px;
+}
+
+/**
+  |============================
+  | Subsribe Styles
+  |============================
+*/
+.subscribe {
+  width: 1300px;
+  height: 387px;
+  margin: 0 20px;
+  border-radius: 32px;
+  background-color: var(--bgcolors-fone);
+}
+.subscribe_conteiner {
+  display: flex;
+}
+.subscribe_section {
 }
 .subscribe_subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--episode-txt-cl);
 }
-.title {
+.subscribe_title {
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 2.88px;
 }
-.subscribe_text {
+.subscribe_box {
+}
+.subscribe_box_row {
+  width: 522px;
+  height: 82px;
+  border: 1px solid rgb(25, 25, 25);
+  border-radius: 6px;
+  background: rgb(25, 25, 25);
+
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--secondary-txt-cl);
+}
+.subscribe_btn {
+  width: 87px;
+  height: 48px;
+  border-radius: 6px;
+  background-color: var(--btn-color);
+
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 2;
+  color: var(--btn-txt-cl);
 }
 .subscribe_img {
+}
+
+/**
+  |============================
+  | FeedBack Styled
+  |============================
+*/
+.feedback {
+  display: flex;
+}
+.feedback_box {
+  width: 423px;
+  height: 321px;
+  border-radius: 32px;
+  background-color: var(--bgcolors-fone);
+}
+.feedback_list {
+  display: flex;
+}
+.feedback_iteam {
+}
+.feedback_img {
+  width: 18px;
+height: 17px;
+}
+.feedback_subtitle {
+  font-size: 36px;
+font-weight: 400;
+line-height: 1.2;
+}
+.feedback_title {
+  font-size: 24px;
+font-weight: 400;
+line-height: 1.2x;
+color: var(--secondary-txt-cl);
 }

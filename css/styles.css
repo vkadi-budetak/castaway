@@ -308,8 +308,8 @@ li:last-child {
 .subscribe_conteiner {
   display: flex;
 }
-.subscribe_section {
-}
+/* .subscribe_section {
+} */
 .subscribe_subtitle {
   font-size: 18px;
   font-weight: 400;
@@ -322,8 +322,8 @@ li:last-child {
   line-height: 1.1;
   letter-spacing: 2.88px;
 }
-.subscribe_box {
-}
+/* .subscribe_box {
+} */
 .subscribe_box_row {
   width: 522px;
   height: 82px;
@@ -347,8 +347,8 @@ li:last-child {
   line-height: 2;
   color: var(--btn-txt-cl);
 }
-.subscribe_img {
-}
+/* .subscribe_img {
+} */
 
 /**
   |============================
@@ -371,16 +371,44 @@ li:last-child {
 }
 .feedback_img {
   width: 18px;
-height: 17px;
+  height: 17px;
 }
 .feedback_subtitle {
   font-size: 36px;
-font-weight: 400;
-line-height: 1.2;
+  font-weight: 400;
+  line-height: 1.2;
 }
 .feedback_title {
   font-size: 24px;
-font-weight: 400;
-line-height: 1.2x;
-color: var(--secondary-txt-cl);
+  font-weight: 400;
+  line-height: 1.2x;
+  color: var(--secondary-txt-cl);
 }
+
+/**
+  |============================
+  | Footer Styled
+  |============================
+*/
+.footer {
+  display: flex;
+}
+.footer_box_logo {
+  width: 223px;
+  height: 46px;
+}
+.footer_box_img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer_box_item {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  color: var(--main-txt-cl);
+}
+.footer_listen {
+display: flex;
+}
+

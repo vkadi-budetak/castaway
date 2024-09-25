@@ -93,9 +93,8 @@ button {
   padding: 26px;
 }
 
-.header_section {
+.header_container {
   display: flex;
-  height: 67px;
 }
 
 /* .header_link {
@@ -367,8 +366,8 @@ li:last-child {
 .feedback_list {
   display: flex;
 }
-.feedback_iteam {
-}
+/* .feedback_iteam {
+} */
 .feedback_img {
   width: 18px;
   height: 17px;
